@@ -1,0 +1,50 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.textField{
+    width: 69%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background: azure;
+    padding-top: 0px;
+    font-size: large;
+}
+
+#it {
+    color: red;
+}
+
+#az {
+    color: blue;
+}
+
+/* Компоновка кнопок */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+.btn {
+    background: coral;
+    width: 23%;
+    margin-bottom: 5px;
+}
+
+/*.btn.btn-default.clearBtn {*/
+    /*background: azure;*/
+/*}*/
+
+.row {
+    padding-top: 20px;
+}
+
+
